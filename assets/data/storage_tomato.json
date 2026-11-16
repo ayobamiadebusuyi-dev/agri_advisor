@@ -1,0 +1,39 @@
+{
+  "crop": "Tomato",
+  "verified": false,
+  "stages": [
+    {
+      "id": "green",
+      "label": "Green",
+      "color": "green",
+      "steps": [
+        { "icon": "check", "text": "Sort the fruits. Remove any that are cracked, soft or rotten." },
+        { "icon": "sun", "text": "Keep them out of direct sunlight." },
+        { "icon": "air", "text": "Store in a well-ventilated place. Use open crates or baskets." },
+        { "icon": "stack", "text": "Do not pile them too high. Heavy piles bruise the fruit at the bottom." }
+      ]
+    },
+    {
+      "id": "turning",
+      "label": "Turning",
+      "color": "turning",
+      "steps": [
+        { "icon": "check", "text": "Check every day. Remove any fruit that is going bad so it does not spoil the others." },
+        { "icon": "air", "text": "Keep in a cool, airy place." },
+        { "icon": "water", "text": "Keep them dry. Do not wash them before storing." },
+        { "icon": "sell", "text": "Plan to sell or use them within a few days." }
+      ]
+    },
+    {
+      "id": "red",
+      "label": "Red",
+      "color": "red",
+      "steps": [
+        { "icon": "sell", "text": "Ripe tomatoes do not keep long. Sell or use them first." },
+        { "icon": "check", "text": "Separate soft or cracked fruits straight away." },
+        { "icon": "air", "text": "Keep in a cool, shaded and airy place." },
+        { "icon": "stack", "text": "Use shallow containers so the fruit at the bottom is not crushed." }
+      ]
+    }
+  ]
+}
